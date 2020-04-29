@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-----Navigation----*/
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-band img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+    color: white !important;
+}
+
+.navbar
+{
+    background: rgb(18, 18, 75);
+}
+
+.navbar-toggler
+{
+    border: none !important;
+}
+
+.nav-link
+{
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16pt;
+}
+/* get in touch */
+
+#contact
+{
+   background-color: #211a61;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   color:white; 
+}
+
+.contact-form
+{
+    padding:15px;
+}
+
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+::placeholder
+{
+    color: #999 !important;
+}
+
+/* gallery */
+
+header
+{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+main
+{
+    margin-top: 10;
+    margin-left: 150;
+    margin-bottom: 10;
+    margin-right: 10;
+}
+
+.box
+{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+img
+{
+    width: 100%;
+    border-radius: 5px;
+}
+
+img:hover
+{
+    transform: scale(2,2);
+    transition: .3s transform;
+}
+
+/* footer */
+
+#footer
+{
+    background: #333;
+    color: white;
+    padding: 12px;
+}
+
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}

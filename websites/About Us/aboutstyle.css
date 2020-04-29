@@ -1,0 +1,190 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*-----Navigation----*/
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-band img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+    color: white !important;
+}
+
+.navbar
+{
+    background: rgb(18, 18, 75);
+}
+
+.navbar-toggler
+{
+    border: none !important;
+}
+
+.nav-link
+{
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 16pt;
+}
+
+/*--about--*/
+
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:white;
+    background: rgb(23, 23, 71);
+}
+
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-content
+{
+    padding: 20px;
+}
+
+.skills-bar
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+
+/*---- Team Members-------*/
+
+#team
+{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+    background:#04233f ;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.profile-pic
+{
+    margin-top: 25px;
+}
+
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic .img-box
+{
+    filter: grayscale(0);
+}
+
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(1);
+    cursor: pointer;
+}
+
+.profile-pic h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff;
+}
+
+.profile-pic h4
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #00ccff;
+}
+
+#team .fa
+{
+    height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background-color: white;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.img-box ul
+{
+    padding: 5px;
+    position: absolute;
+    z-index: 2;
+    bottom: 1%;
+    transform: translateX(50%);
+    opacity: 0;
+}
+
+.img-box ul li
+{
+    padding: 5px;
+    display: inline-block;
+}
+
+.img-box:hover ul
+{
+    opacity: 1;
+}
+
+/* footer */
+
+#footer
+{
+    background: #333;
+    color: white;
+    padding: 12px;
+}
+
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}
